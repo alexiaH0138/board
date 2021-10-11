@@ -8,7 +8,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;
-
+//원격에서 수정됨2
 @Repository //컴포넌트의 자식 어노테이션. 다오임을 특정지어줌.
 @RequiredArgsConstructor //생성자로 주입 --인터페이스에서 구현된 클래스를 찾을 수 없기 때문에 원래는 필드 주입을 해야하지만
                         //Mapper가 xml에서 구현된 부분도 클래스로 인식해서 실행한다. (정상적인 방법은 아님)
