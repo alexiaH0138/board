@@ -11,5 +11,5 @@ public class BoardVO {
     private String content;
     private String writer;
     private String regDate;
-    private String updateData;
+    private String updateDate;
 }
